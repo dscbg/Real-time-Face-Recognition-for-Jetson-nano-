@@ -18,4 +18,12 @@ First, run the `Manager.py` file to collect data and train the model. After you 
 ## Tip
 Also, remember to create a names.csv file and dataset folder before to avoid possible error when collecting data. For saving model, remember to create a trainer folder where the model will be saved. 
 
-
+A correct files structure for running the program is:
+- `Manager.py`
+- `Recognizer.py`
+- `Reset.py`: This file is for cleaning all the generated files(including data and models)
+- `haarcascade_frontalface_default.xml`
+- `recogFunc.py`
+- `names.csv`
+- `dataset`: This is a folder name `dataset` that you need to create beforehand
+- `trainer`: This is a folder name `trainer` that you need to create beforehand and the model will be stored in the folder. When test the recognizer, the program will read model from the generated yml model file.
