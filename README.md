@@ -1,5 +1,5 @@
 # Real-time-Face-Recognition-for-Jetson-nano
-This is an openCV based python code that achieve real-time face data collection and real time face recognition. And all the works including (training mode, data proccessing...) have been done on the Jetson Nano without using Docker container(or Jupyterlab) so we configure all the environment locally. These files can be easily adjusted for other classifications as well. And unlike other face recognition project for Jetson Nano, we don't need to upload data manually. Instead we can directly collect data when running the manager.py file. Similarly, we can do real time training after we collecting the data.
+This is an openCV based python code that achieve real-time face data collection and real time face recognition. And all the works including (training model, data proccessing...) have been done on the Jetson Nano without using Docker container(or Jupyterlab) so we configure all the environment locally. These files can be easily adjusted for other classifications as well. And unlike other face recognition project for Jetson Nano, we don't need to upload data manually. Instead we can directly collect data when running the manager.py file. Similarly, we can do real time training after we collecting the data.
 ## File Description
 - `Manager.py`: This file is for real-time data collection and real-time model training.
 
