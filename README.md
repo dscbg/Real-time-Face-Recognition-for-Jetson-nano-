@@ -15,4 +15,7 @@ When I was trying to make the program run, it took a while to download the requi
 ## Execution
 First, run the `Manager.py` file to collect data and train the model. After you run the file, it will pop up an window that has record and train button on it. You need to enter your name in the text box to start record and collect your real-time data from the camera.When the collection is done, it will send message to tell you. If the database already have the data for your name, it will pop up a window to remind you that you can directly train your model. And you just need to click on the train button until you see the message `train completed` After that, run the `Recognizer.py` file and you can see the recognized face with name tag and reactangle that detects your face from the pop upcamera. If you have more questions, you can check my video about how to execute it.
 
+## Tip
+Also, remember to create a names.csv file and dataset folder before to avoid possible error when collecting data.
+
 
